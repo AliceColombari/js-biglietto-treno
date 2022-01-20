@@ -15,3 +15,6 @@ console.log(trip);
 let userAge = parseInt(prompt('Quanti anni hai?'));
 console.log(userAge);
 
+// calcolo il prezzo del biglietto
+let priceTicket = 0.21;
+console.log(priceTicket);
