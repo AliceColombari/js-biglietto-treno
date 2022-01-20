@@ -30,7 +30,7 @@ let price = '';
 let sale20 = (priceTicket * 20/ 100);
 // sconto 40% per over 65
 let sale40 = (priceTicket * 40/ 100);
-// nessuno sconto per altri
+// nessuno sconto per maggiorenni
 let noSale = 0;
 
 // condizione sconto applicato in base all'età
@@ -57,5 +57,9 @@ const roundedPrice = finalPrice.toFixed(2);
 // calcolo finale in base ai dati
 let totalPrice = 'Il costo del tuo biglietto è: ' + roundedPrice + ' €';
 console.log(totalPrice);
+
+
+// ciò che vedrà l'utente in schermata
+document.getElementById('prezzo').innerHTML = totalPrice;
 
 
