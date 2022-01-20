@@ -16,5 +16,9 @@ let userAge = parseInt(prompt('Quanti anni hai?'));
 console.log(userAge);
 
 // calcolo il prezzo del biglietto
-let priceTicket = 0.21;
+// prezzo per km
+let pricePerKm = 0.21;
+console.log(pricePerKm);
+// prezzo biglietto = km inseriti * prezzo per km
+const priceTicket = (trip * pricePerKm);
 console.log(priceTicket);
