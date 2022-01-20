@@ -4,3 +4,14 @@
 // va applicato uno sconto del 20% per i minorenni
 // va applicato uno sconto del 40% per gli over 65.
 // L’output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
+
+
+
+// chiedo all'utente quanti chilometri vuole percorrere
+let trip = parseInt(prompt('Quanti chilometri vuoi percorrere?'));
+console.log(trip);
+
+// chiedo all'utente l'età
+let userAge = parseInt(prompt('Quanti anni hai?'));
+console.log(userAge);
+
