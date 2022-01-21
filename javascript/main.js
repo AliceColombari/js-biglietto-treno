@@ -37,7 +37,7 @@ let noSale = 0;
 if (userAge < 18) {
     price = sale20;
     console.log('Sconto Minorenne: ' + price);
-
+   
 } else if (userAge > 65) {
     price = sale40;
     console.log('Sconto Over65: ' + price);
